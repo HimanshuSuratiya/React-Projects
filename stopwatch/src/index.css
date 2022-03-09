@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.mainHeading {
+  text-align: center;
+  font-size: 58px;
+  letter-spacing: 2px;
+  color: rgb(110, 91, 95);
+}
+
+.mainDiv {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.Box {
+  position: relative;
+  height: 510px;
+  width: 360px;
+  background-color: rgb(31, 30, 30);
+  border-radius: 10px;
+}
+
+.BoxHeading {
+  text-align: center;
+  color: rgb(207, 198, 198);
+  font-size: 50px;
+  margin-top: 60px;
+}
+
+.buttonDiv {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.btnstart {
+  padding: 8px 25px;
+  text-align: center;
+  font-size: 24px;
+  width: 30%;
+  text-decoration: none;
+  background-color: rebeccapurple;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnlap {
+  padding: 8px 25px;
+  text-align: center;
+  font-size: 24px;
+  width: 30%;
+  text-decoration: none;
+  background-color: rgb(41, 38, 38);
+  color: #fff;
+  border-radius: 8px;
+  margin: 0px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnReset {
+  background-color: gray;
+  padding: 8px 25px;
+  text-align: center;
+  font-size: 24px;
+  width: 40%;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnStop {
+  background-color: rgb(143, 64, 64);
+  padding: 8px 25px;
+  text-align: center;
+  font-size: 24px;
+  width: 30%;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnResume {
+  padding: 8px 25px;
+  text-align: center;
+  font-size: 24px;
+  width: 40%;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(105, 60, 148);
+  border-radius: 8px;
+  margin: 0px 10px;
+  border: none;
+  cursor: po;
+}

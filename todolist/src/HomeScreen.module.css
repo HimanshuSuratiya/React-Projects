@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(65, 86, 129);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whitecontainer {
+  height: 100%;
+  width: 350px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.todo {
+  height: 65px;
+  background-color: rgb(168, 124, 209);
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+}
+
+.Type {
+  display: flex;
+  margin-top: 35px;
+  padding: 0px 30px;
+}
+
+.Type input {
+  border: none;
+  outline: none;
+  height: 35px;
+  display: flex;
+  text-align: center;
+  margin-top: 12px;
+  border-bottom: 3px solid rgb(168, 124, 209);
+  font-size: 18px;
+}
+
+.Type input::placeholder {
+  font-size: 24px;
+}
+
+.Type i {
+  font-size: 50px;
+  margin: 0px 15px;
+  color: rgb(168, 124, 209);
+}
+
+.Type i:hover {
+  transform: rotate(360deg);
+  color: rgb(51, 122, 51);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.Remove {
+  display: flex;
+  margin-top: 24px;
+  padding: 13px 30px;
+  font-size: 25px;
+  height: 40px;
+  color: rgb(168, 124, 209);
+  align-items: center;
+}
+
+.Remove i {
+  padding-right: 15px;
+  font-size: 30px;
+  color: rgb(168, 124, 209);
+}
+
+.Remove i:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(192, 62, 62);
+  cursor: pointer;
+}
+
+p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 30px;
+}
+
+.scroll {
+  height: 377px;
+  width: auto;
+  overflow-y: scroll;
+}
